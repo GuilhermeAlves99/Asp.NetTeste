@@ -129,6 +129,20 @@
     <Compile Include="Models\BeneficiarioModel.cs" />
     <Compile Include="Models\ClienteModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="App_Data\Scripts\CreateDatabase.sql" />
+    <Content Include="App_Data\Scripts\CreateTables.sql" />
+    <Content Include="App_Data\Scripts\Migrations\Migration_AlterTableBeneficiarios.sql" />
+    <Content Include="App_Data\Scripts\StoreProcedure\FI_SP_AltBenef.sql" />
+    <Content Include="App_Data\Scripts\StoreProcedure\FI_SP_AltClient.sql" />
+    <Content Include="App_Data\Scripts\StoreProcedure\FI_SP_ConsBeneficiario.sql" />
+    <Content Include="App_Data\Scripts\StoreProcedure\FI_SP_ConsCliente.sql" />
+    <Content Include="App_Data\Scripts\StoreProcedure\FI_SP_IncBenef.sql" />
+    <Content Include="App_Data\Scripts\StoreProcedure\FI_SP_IncCliente.sql" />
+    <Content Include="App_Data\Scripts\StoreProcedure\FI_SP_IncClienteV2.sql" />
+    <Content Include="App_Data\Scripts\StoreProcedure\FI_SP_PesqBenef.sql" />
+    <Content Include="App_Data\Scripts\StoreProcedure\FI_SP_PesqCliente.sql" />
+    <Content Include="App_Data\Scripts\StoreProcedure\FI_SP_VerificaBenef.sql" />
+    <Content Include="App_Data\Scripts\StoreProcedure\FI_SP_VerificaCliente.sql" />
     <Content Include="Scripts\Beneficiarios\FI.AltBeneficiario.js" />
   </ItemGroup>
   <ItemGroup>
