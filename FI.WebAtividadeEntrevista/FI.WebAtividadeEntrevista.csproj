@@ -129,6 +129,7 @@
     <Compile Include="Models\BeneficiarioModel.cs" />
     <Compile Include="Models\ClienteModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="App_Data\Database\scriptsSQL.sql" />
     <Content Include="App_Data\Scripts\CreateDatabase.sql" />
     <Content Include="App_Data\Scripts\CreateTables.sql" />
     <Content Include="App_Data\Scripts\Migrations\Migration_AlterTableBeneficiarios.sql" />
